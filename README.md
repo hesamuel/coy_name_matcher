@@ -1,4 +1,4 @@
-<img src="../assets/sorting.gif" align="center" width="40%" margin="0" ></img> 
+<img src="./assets/sorting.gif" align="center" width="40%" margin="0" ></img> 
 
 # COMPANY NAME MATCHER
 One of the challenges with querying company names from different databases is the discrepancy in the way entity names are spelt. For example, company “ABC” is shown as “ABC” in the Bloomberg system, but “AB C” in another data source. We need to make sure they actually refer to the same company.
