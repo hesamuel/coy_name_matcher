@@ -12,6 +12,18 @@ A quick search of "SINGTEL" revealed more than 30 different business entities re
 ## STAGE 2: INTERNAL MATCHING
 For non-perfect matches, we will then create a function to check similarity scores within the data set. We will be using Levenshtein distance as our metric for measuring the difference between company names. Levenshtein distance between two words can be explained as the the minimum number of single-character edits (insertions, deletions or substitutions) required to change one word into the other.
 
+## Directory
+
+```
+|__ code
+|   |__ 01_Name_Match.ipynb  
+|__ data
+|   |__ name_match.csv
+|__ assets
+|   |__ (various_images_used_for_presentation)
+|__ README.md
+```
+
 
 ## CONCLUSION/LIMITATIONS
 **Spelling-Errors?** - We got lucky that our test examples did not have severe typos. As an improvement, we could possibly add in a third stage to account for some non-matches. One of the first steps in stage 3 could be searching ACRA, but having a less stringent matching criteria. For all remaining non-matches, we might need to end up manually sorting the data.
